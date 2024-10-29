@@ -1,0 +1,44 @@
+/* App.css */
+
+.app-container {
+  text-align: center;
+  padding: 2rem;
+  /* background-color: rgba(0, 220, 88, 0); */
+  position: absolute;
+  right: 0.5%;
+  height: 100%;
+  width: 100%;
+ 
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: black;
+  border-color: red;
+  border-radius: 10px;
+  color: white;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: black;
+  background-color: rgb(21, 205, 21);
+  border-radius: 30px;
+  font-weight: bolder;
+}
+button:hover{
+  background-color: rgb(37, 123, 220);
+  color: white;
+}
+
+.result {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
